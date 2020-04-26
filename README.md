@@ -168,3 +168,33 @@ WWISE_SetRTPCValue(string rtpcName, double rtpcValue, double gameObjectID)
 ```
 Returns 0 if succeded, `-1` if failed. Enter -1 as `gameObjectID` to set a global value.
 
+## Examples
+
+### Initialising Wwise and loading a bank
+```
+WWISE_Init();
+WWISE_SetBasePath("GeneratedSoundBanks/Windows");
+WWISE_LoadBank("Init.bnk");
+WWISE_LoadBank("TestBank.bnk");
+```
+
+### Registering the listener and setting its position
+```
+WWISE_RegisterListener();
+WWISE_SetListenerPosition(x, y, -10, 0, -1, 0, 0, 0, 1);
+```
+
+### Registering a GameObject and posting an Event 
+```
+WWISE_RegisterGameObj(id, "TestGameObject");
+WWISE_PostEvent("Music", id);
+```
+
+### Setting the position of a GameObject
+```
+x = mouse_x;
+y = mouse_y;
+WWISE_Set3DPosition(id, x, y, 0, 0, -1, 0, 0, 0, 1);
+```
+
+

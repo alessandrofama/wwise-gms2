@@ -146,18 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Program Files\Wwise 2019.2.1.7250\SDK\include\AK\SoundEngine\Common\AkFilePackage.cpp" />
-    <ClCompile Include="..\..\..\..\Program Files\Wwise 2019.2.1.7250\SDK\include\AK\SoundEngine\Common\AkFilePackageLUT.cpp" />
-    <ClCompile Include="..\..\..\..\Program Files\Wwise 2019.2.1.7250\SDK\include\AK\SoundEngine\Common\AkMultipleFileLocation.cpp" />
-    <ClCompile Include="..\..\..\..\Program Files\Wwise 2019.2.1.7250\SDK\include\AK\SoundEngine\Win32\AkDefaultIOHookBlocking.cpp" />
-    <ClCompile Include="wwise_gms2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="..\src\wwise_gms2.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="wwise_gms2.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wwise-gms2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\wwise_gms2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

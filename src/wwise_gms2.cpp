@@ -3,36 +3,16 @@
 
 #include "wwise_gms2.h"
 
-#include "AK/SoundEngine/Win32/AkFilePackageLowLevelIOBlocking.h"
+#include "AkDefaultIOHookBlocking.h"
 
 #include <AK/SoundEngine/Common/AkMemoryMgr.h>
 #include <AK/SoundEngine/Common/AkModule.h>
 #include <AK/SoundEngine/Common/IAkStreamMgr.h>
-#include <AK/Tools/Common/AkPlatformFuncs.h>
+#include <AK/SoundEngine/Common/AkSoundEngine.h>
 #include <AK/MusicEngine/Common/AkMusicEngine.h>
 #include <AK/SoundEngine/Common/AkQueryParameters.h>
 
-#include <AK/Plugin/AkSineSourceFactory.h>
-#include <AK/Plugin/AkToneSourceFactory.h>
-#include <AK/Plugin/AkSilenceSourceFactory.h>
-#include <AK/Plugin/AkAudioInputPlugin.h>
-#include <AK/Plugin/AkDelayFXFactory.h>
-#include <AK/Plugin/AkParametricEQFXFactory.h>
-#include <AK/Plugin/AkMatrixReverbFXFactory.h>
-#include <AK/Plugin/AkCompressorFXFactory.h>
-#include <AK/Plugin/AkExpanderFXFactory.h>
-#include <AK/Plugin/AkPeakLimiterFXFactory.h>
-#include <AK/Plugin/AkRoomVerbFXFactory.h>
-#include <AK/Plugin/AkPitchShifterFXFactory.h>
-#include <AK/Plugin/AkMeterFXFactory.h>
-#include <AK/Plugin/AkVorbisDecoderFactory.h>
-#include <AK/Plugin/AkFlangerFXFactory.h>
-#include <AK/Plugin/AkGuitarDistortionFXFactory.h>
-#include <AK/Plugin/AkTremoloFXFactory.h>
-#include <AK/Plugin/AkTimeStretchFXFactory.h>
-#include <AK/Plugin/AkStereoDelayFXFactory.h>
-#include <AK/Plugin/AkHarmonizerFXFactory.h>
-#include <AK/Plugin/AkGainFXFactory.h>
+#include <AK/Plugin/AllPluginsFactories.h>
 
 #ifndef AK_OPTIMIZED
 #include <AK/Comm/AkCommunication.h>
@@ -65,7 +45,7 @@ namespace AK {
 	}
 }
 
-CAkFilePackageLowLevelIOBlocking g_lowLevelIO;
+CAkDefaultIOHookBlocking g_lowLevelIO;
 
 #ifndef AK_OPTIMIZED
 AkMemPoolId g_poolComm = AK_INVALID_POOL_ID;

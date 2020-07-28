@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2010788230" Name="TestParameter" ObjectPath="\Game Parameters\Default Work Unit\TestParameter"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3291379323" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestBank</ObjectPath>
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music">
+					<IncludedMemoryFiles>
+						<File Id="70783145" Language="SFX">
+							<ShortName>ld45synth1.wav</ShortName>
+							<Path>SFX\ld45synth1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="497759377" Language="SFX">
+							<ShortName>ld45-clarinette.wav</ShortName>
+							<Path>SFX\ld45-clarinette_D79FB2B7.wem</Path>
+						</File>
+						<File Id="745892432" Language="SFX">
+							<ShortName>ld45-drums.wav</ShortName>
+							<Path>SFX\ld45-drums_D79FB2B7.wem</Path>
+						</File>
+						<File Id="827253093" Language="SFX">
+							<ShortName>ld45-violin.wav</ShortName>
+							<Path>SFX\ld45-violin_D79FB2B7.wem</Path>
+						</File>
+						<File Id="880192731" Language="SFX">
+							<ShortName>ld45-jazz.wav</ShortName>
+							<Path>SFX\ld45-jazz_D79FB2B7.wem</Path>
+						</File>
+						<File Id="980844589" Language="SFX">
+							<ShortName>ld45-violin2.wav</ShortName>
+							<Path>SFX\ld45-violin2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1070025067" Language="SFX">
+							<ShortName>ld45synth2.wav</ShortName>
+							<Path>SFX\ld45synth2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2801359654" Name="PitchParameter" ObjectPath="\Game Parameters\Default Work Unit\PitchParameter"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

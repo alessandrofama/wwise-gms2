@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	3753286132	Calm	MusicState			
+	4223512837	Intense	MusicState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	209848864	Calm	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth1		
+	382137650	Calm	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth2		
+	496298316	Intense	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-jazz		
+	551816004	Calm	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-jazz		
+	558891593	Intense	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-drums		
+	629930794	Intense	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth1		
+	675390283	Intense	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth2		
+	985609925	Calm	MusicState	\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-drums		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2801359654	PitchParameter			\Default Work Unit\PitchParameter	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70783145	ld45synth1	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45synth1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth1		6985504
+	497759377	ld45-clarinette	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45-clarinette_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-clarinette		6985504
+	745892432	ld45-drums	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45-drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-drums		6985504
+	827253093	ld45-violin	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45-violin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-violin		6985504
+	880192731	ld45-jazz	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45-jazz_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-jazz		6985504
+	980844589	ld45-violin2	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45-violin2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45-violin2		6985504
+	1070025067	ld45synth2	C:\Users\ALEXZEN\Documents\GameMakerStudio2\wwise_project\wwise-gms2-project\.cache\Windows\SFX\ld45synth2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Explore\Playlist\ld45synth2		6985504
+

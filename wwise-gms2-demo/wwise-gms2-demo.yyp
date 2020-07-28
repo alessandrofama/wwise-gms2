@@ -1,0 +1,318 @@
+{
+    "id": "df131b4b-d880-4e19-86c7-86e270a457a5",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "fa182861-eeac-467d-bfa5-d0d5608bdbb2",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "787c5d87-4e51-4110-ba72-41dfb7728e55",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "073be75e-dd8e-4e8f-bb12-d3d718daeab6",
+            "Value": {
+                "id": "51905502-6a1f-4112-adf5-ffed4bc84b24",
+                "resourcePath": "views\\073be75e-dd8e-4e8f-bb12-d3d718daeab6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0799cbe5-bf58-42a1-912e-365166b5e142",
+            "Value": {
+                "id": "33fa735a-2307-4264-8910-4aca66cab065",
+                "resourcePath": "sprites\\smokeparticle\\smokeparticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1b0663e6-b4bf-4729-a161-8a9aefa765f1",
+            "Value": {
+                "id": "1aae40ce-359a-4a80-9b3c-884d0aa7dde9",
+                "resourcePath": "objects\\obj_wwise\\obj_wwise.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "38086f53-9ca7-4ae0-903c-e9577f760edc",
+            "Value": {
+                "id": "73b702f3-4ca2-47fc-a304-afeb7af44a19",
+                "resourcePath": "views\\38086f53-9ca7-4ae0-903c-e9577f760edc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3b702696-a51a-40fa-a36d-ec4ba21c2834",
+            "Value": {
+                "id": "cc5ca097-cc89-48af-8da8-16829a750b90",
+                "resourcePath": "objects\\obj_d1\\obj_d1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "41941424-37c3-4878-9b87-b0bbd1d83078",
+            "Value": {
+                "id": "5e8ddf3b-078d-421f-8d7c-588beadb667a",
+                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4414569f-3bae-4b5c-8432-0e096441c8b6",
+            "Value": {
+                "id": "7c5433ea-deda-4000-b071-43b405e786f8",
+                "resourcePath": "objects\\obj_emitter\\obj_emitter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "471d621b-66dc-4864-9c91-f1e03e6584b9",
+            "Value": {
+                "id": "66628d6e-7191-4de6-87a3-0004655c2ac7",
+                "resourcePath": "views\\471d621b-66dc-4864-9c91-f1e03e6584b9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c39cbc7-b3ab-4a7d-b88f-71fbde6cf275",
+            "Value": {
+                "id": "d94904fe-96ff-4b96-99e5-899243bd4ee9",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\TestBank.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5675ea27-5887-462d-a49e-9ca81030793a",
+            "Value": {
+                "id": "06a0c81f-21be-4988-bf3b-9450e735749b",
+                "resourcePath": "views\\5675ea27-5887-462d-a49e-9ca81030793a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "586c70a8-692d-49f6-97a0-851d3a491610",
+            "Value": {
+                "id": "0fb26d14-8172-4e96-80dd-aa91d645d17d",
+                "resourcePath": "views\\586c70a8-692d-49f6-97a0-851d3a491610.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "632e0adb-43b8-42b8-beb6-560302756630",
+            "Value": {
+                "id": "36c47586-befd-4238-8543-a95b7d269e40",
+                "resourcePath": "views\\632e0adb-43b8-42b8-beb6-560302756630.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "654c4643-96b3-4c71-bb16-8ff608b6b819",
+            "Value": {
+                "id": "9aed8f19-2ca2-4121-a0ee-555ca1f49b12",
+                "resourcePath": "views\\654c4643-96b3-4c71-bb16-8ff608b6b819.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6698ebdf-2108-472c-8f21-8a4d9c489925",
+            "Value": {
+                "id": "27fdfdc9-7bcc-408b-947a-e302cb2f6dec",
+                "resourcePath": "views\\6698ebdf-2108-472c-8f21-8a4d9c489925.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75d2c4a2-5107-4cac-8d5c-fffb8d9fd15f",
+            "Value": {
+                "id": "c9f4acb6-3b99-459b-a745-e2a4d3ac6902",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\SoundbanksInfo.xml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "875373f0-dc14-4b89-8bd7-8f613c24daea",
+            "Value": {
+                "id": "4731b8f8-2400-4543-ba35-4d1dbd58cb0e",
+                "resourcePath": "views\\875373f0-dc14-4b89-8bd7-8f613c24daea.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88cc49e4-233c-4720-a64d-ae8e56fa99c8",
+            "Value": {
+                "id": "90135db3-bb37-438a-a95b-7e70d7028551",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8bc29ac6-536b-4441-b8ed-1dec7851d06a",
+            "Value": {
+                "id": "55f87c62-500e-4579-bc93-2b46159ec132",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\Init.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "8e1508ff-b70d-44f3-ac81-9b12849c5e90",
+            "Value": {
+                "id": "c085f4d7-088a-42b1-aeae-07de57a1caba",
+                "resourcePath": "objects\\obj_listener\\obj_listener.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "915981c8-6d32-4a2c-be70-ce8ee6ad9cc0",
+            "Value": {
+                "id": "3d5ec014-76db-45ff-9f19-c8b57693a984",
+                "resourcePath": "views\\915981c8-6d32-4a2c-be70-ce8ee6ad9cc0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9343621d-6c97-4179-8632-a8f1814f1bf5",
+            "Value": {
+                "id": "03cf654a-a103-44b2-bb3a-fd8640c0d373",
+                "resourcePath": "views\\9343621d-6c97-4179-8632-a8f1814f1bf5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a02f2550-a498-434c-b064-6b47f45993c8",
+            "Value": {
+                "id": "f26a97c3-2711-487f-b636-331c9aa41b9e",
+                "resourcePath": "views\\a02f2550-a498-434c-b064-6b47f45993c8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c34f7489-40f1-4e57-a0fc-364ae7a2d579",
+            "Value": {
+                "id": "0ae94763-172d-401a-a00e-cf1b98475588",
+                "resourcePath": "extensions\\wwise_gms2\\wwise_gms2.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "c5406953-4753-452b-92d1-e832d1cd219f",
+            "Value": {
+                "id": "2ddfddb7-04b3-4e01-9967-6a1bd03f5c23",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\PluginInfo.xml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "c71a19a7-66da-4454-a7a2-8eccc2b6cc31",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d20e5ba5-f810-4b4f-90a9-9fb039b1deba",
+            "Value": {
+                "id": "3e1753be-bcdb-4087-bea4-24c9d2d923e3",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d6ec59dd-2b7b-4bce-95b3-969f1678d6f4",
+            "Value": {
+                "id": "21591372-a6a2-4737-a55f-322c741a6294",
+                "resourcePath": "views\\d6ec59dd-2b7b-4bce-95b3-969f1678d6f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d8e4670d-003a-4d58-9800-3d5f19b9714f",
+            "Value": {
+                "id": "0e699016-e84e-462a-9abb-bafbcbff47b7",
+                "resourcePath": "views\\d8e4670d-003a-4d58-9800-3d5f19b9714f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d973343e-053e-4ae2-af5c-a3b2304b1875",
+            "Value": {
+                "id": "d9030aca-2c85-4aa8-9f69-e72a0a186250",
+                "resourcePath": "views\\d973343e-053e-4ae2-af5c-a3b2304b1875.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da548034-6a6c-4a32-9d0e-6a8e0683d01f",
+            "Value": {
+                "id": "3564332c-9df3-43cf-8263-affc9adf4e3f",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\Init.bnk.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "df07f7b5-a673-4b01-945a-76a9a8e977b1",
+            "Value": {
+                "id": "d3e59c37-1da8-483f-9403-40001a322f25",
+                "resourcePath": "views\\df07f7b5-a673-4b01-945a-76a9a8e977b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e512b7c7-74d5-43ca-86c0-94ed1e3dcd63",
+            "Value": {
+                "id": "4e8d165d-63f0-4d9e-b97c-f517334b5631",
+                "resourcePath": "views\\e512b7c7-74d5-43ca-86c0-94ed1e3dcd63.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef9c2b1e-20de-43ed-9e07-af8b9791679a",
+            "Value": {
+                "id": "82d51894-18f7-4c6c-aca4-2a2b16d9b684",
+                "resourcePath": "views\\ef9c2b1e-20de-43ed-9e07-af8b9791679a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f21a6dd6-fd18-42db-90a5-aca7069ca2d8",
+            "Value": {
+                "id": "6155ef41-7325-4886-b9f7-3cedad5fbde7",
+                "resourcePath": "objects\\obj_particle\\obj_particle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f439b642-0fb5-4ed9-ae35-1241b0a8cd98",
+            "Value": {
+                "id": "b3cdd6e6-d320-4056-aadf-9c56c6adf1dd",
+                "resourcePath": "datafiles_yy\\GeneratedSoundBanks\\Windows\\TestBank.bnk.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        }
+    ],
+    "script_order": [
+        
+    ],
+    "tutorial": ""
+}

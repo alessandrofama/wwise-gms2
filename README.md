@@ -16,13 +16,25 @@ This extension adds bindings to the Wwise API (version 2019.2.1.7250) for Game M
 
 Import the provided .yymp file (releases tab) to your Game Maker Studio 2 project. You will find a Debug and Release folder in the provided .zip file. Replace the .dll file in the wwise-gms2 extension folder of your project with the desired version. Debug enables communication with the Wwise Authoring Tool.
 
-## Building
+## Build Instructions 
 
-Add the `include` folder of the Wwise SDK to the Include directories, the appropriate platform folder to the Library Directories (for release it would be `SDK\Win32_vc160\Release(StaticCRT)\lib`. Copy the `Win32` folder of `SDK\samples\SoundEngine` into your the sdk include directory. Copy all the files of the Common directory in `SDK\samples\SoundEngine` and add them to `SDK\include\AK\SoundEngine\Common` Also add following files to the solution:
-- AkDefaultOHookBlocking.cpp
-- AkFIlePackage.cpp
-- AkFIlePackageLut.cpp
-- AkMultipleFileLocation.cpp
+This project uses <a href="https://scons.org/">Scons</a>.
+
+### Windows (x86)
+
+The build requires that the %WWISESDK% environment variable is defined in the system (it's defined by default after installing Wwise on Windows). Otherwise, you'd need to specify the path to your Wwise SDK installation. Execute the following commands to build the extension:
+
+Debug (includes Wwise profiler connection)
+
+```
+scons target=debug platform=windows wwise_sdk="%WWISESDK%"
+```
+
+Release
+
+```
+scons target=release platform=windows wwise_sdk="%WWISESDK%"
+```
 
 # Usage 
 
